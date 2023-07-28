@@ -1,0 +1,64 @@
+{
+	"info": {
+		"_postman_id": "3fa6a3e7-1a10-4fea-a10f-303b6406917a",
+		"name": "print",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "15950439"
+	},
+	"item": [
+		{
+			"name": "print-single",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"site\": \"https://www.linkedin.com/in/breno-henrique-vieira-leal-89a3891a9/\",\r\n    \"name\": \"me-linkedin\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3333/single",
+					"host": [
+						"localhost"
+					],
+					"port": "3333",
+					"path": [
+						"single"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "print-multiple",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"site\": \"https://www.linkedin.com/in/breno-henrique-vieira-leal-89a3891a9/\",\r\n    \"name\": \"me-linkedin\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3333/single",
+					"host": [
+						"localhost"
+					],
+					"port": "3333",
+					"path": [
+						"single"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
